@@ -2,7 +2,7 @@ package model;
 
 /*
     As interfaces, até o Java 7, tinham como regra o seguinte:
-    1. Qualquer atributo em um interface deve ser público e constante;
+    1. Qualquer atributo em uma interface deve ser público e constante;
     2. Qualquer método em uma interface deve ser público e abstrato.
 
     Porém, essa rigidez na regra fez com que, ao dar manutenção nas classes do Java,
@@ -20,7 +20,7 @@ package model;
     Método Private: este é um método que também aceita ter algoritmo (é implementado). Mas,
     diferente do método default, ele não é visível por quem implementa a interface (em outras
     palavras, ele é interno a interface. Muito útil quando um método deve ter sua implementação
-    final no escopo da interface (não permitindo modificar sua implementação e outro espaço).
+    final no escopo da interface (não permitindo modificar sua implementação e outro espaço)).
 
  */
 
