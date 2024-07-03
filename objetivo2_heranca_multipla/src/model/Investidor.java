@@ -22,6 +22,15 @@ package model;
     palavras, ele é interno a interface. Muito útil quando um método deve ter sua implementação
     final no escopo da interface (não permitindo modificar sua implementação e outro espaço)).
 
+    Mais tarde, seguindo a evolução da tecnologia, os desenvolvedores viram a necessidade de
+    criar métodos static. Asssim, não seria necessário criar um objeto da interface, mas apenas
+    utilizar o método (já que ele é um membro da Interface, e não da instância da interface).
+    Método Static: este é um método que aceita ter algoritmo (é implementado). Mas, diferente do
+    default e do private, ele é marcado com o modificador static, para representar que esse é
+    um método membro da interface e não de sua instância (de seu objeto) que, em outras palavras,
+    significa que para chamar o método basta colocar o nome da interface como prefixo, assim:
+    NomeDaInterface.NomeDoMétodoStatic()
+
  */
 
 public interface Investidor {
